@@ -1,0 +1,26 @@
+.terminal {
+  width: 100%;
+  height: 100%;
+  background: black;
+  overflow: auto;
+
+  color: gray;
+  font-family: "Fura Code Powerline", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: .875rem;
+}
+
+.terminal.active div {
+  color: lime;
+}
+
+.terminal.active .prefix {
+  color: lime;
+}
+
+.terminal.active .text {
+  color: silver;
+}
+.terminal.active .cursor {
+  background: silver;
+  color: black;
+}
